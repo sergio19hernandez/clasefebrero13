@@ -4,6 +4,7 @@ using namespace std;
 // algoritmo para determinar el numero mayor
 int main()
 {
+    //definicion de variables
     float num1=0,num2=0,num3=0 ;
     cout<< "ingrese el primer numero: ";
     cin >> num1;
@@ -11,6 +12,7 @@ int main()
     cin >> num2;
      cout<< "ingrese el tercer numero: ";
     cin >> num3;
+    //definicion de las variables
         if(num1>num2 && num1>num3)
             {
             cout << num1 <<" es mayor";
